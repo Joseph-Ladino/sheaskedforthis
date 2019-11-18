@@ -1,10 +1,10 @@
 * {
-  /* box-sizing: border-box; */
   margin: 0;
   border: 0;
   padding: 0;
   color: white;
   max-width: 100%;
+  cursor: url("https://cdn.discordapp.com/attachments/644348008422703106/645826592668647435/OAitzkJHK8E3AN0vJJz5zkJOAk4CTgJOAn0QQIOaPsgJHeIk4CTgJOAk4CTwPFKwAHt8UrOneck4CTgJOAk4CTQBwk4oO2DkNwhT.png"), default;
 }
 
 body {
@@ -34,7 +34,6 @@ html {
   max-height: 90vh;
   max-width: 95%;
   width: auto;
-  margin: auto;
   position: fixed;
   object-fit: contain;
 }
@@ -44,14 +43,15 @@ html {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 #gridboy > img {
   max-height: 40%;
-  margin: 2%;
+  max-width: 95%;
   width: auto;
-  border-radius: 5px;
+  margin: 1%;
+  border-radius: 15px;
   cursor: pointer;
   object-fit: contain;
 }
