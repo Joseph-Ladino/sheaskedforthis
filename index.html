@@ -55,10 +55,12 @@
         }
       }
 
-      for(var i = 0, img; i < owo.length; i++) {
+      for(var i = 0, img, div; i < owo.length; i++) {
+        div = document.createElement("div");
         img = document.createElement("img");
         img.src = owo[i]; img.class += "imgs";
-        document.getElementById("gridboy").appendChild(img);
+        div.appendChild(img);
+        document.getElementById("gridboy").appendChild(div);
         img.addEventListener("click", manageClicks);
       }
 

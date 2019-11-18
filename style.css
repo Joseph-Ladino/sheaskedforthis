@@ -46,11 +46,19 @@ html {
   justify-content: center;
 }
 
-#gridboy > img {
-  max-height: 40%;
-  max-width: 95%;
-  width: auto;
+#gridboy > div {
+  width: fit-content;
+  height: auto;
   margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gridboy > div > img {
+  max-height: 40vh;
+  max-width: 95vw;
+  width: auto;
   border-radius: 15px;
   cursor: pointer;
   object-fit: contain;
